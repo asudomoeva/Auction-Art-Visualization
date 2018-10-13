@@ -17,4 +17,24 @@ Do auction prices vary by location and season?
 Did Financial Crisis have any effect on the auctions?
 Does the order in which the lot is presented affect the overall sell price?
 
-The detailed final report as well as an interactive component of the analysis are shared in this repo for your convinience.
+The detailed final report of the analysis are shared in this repo for your convinience.
+
+## Interactive Component
+Link to the interactive part: https://edav-art-viz.firebaseapp.com
+
+### Description
+Our interactive visualization is a scatter plot of lot prices over time built with HTML, CSS, Bootstrap and JavaScript; it is hosted on Firebase and can be viewed here: https://edav-art-viz.firebaseapp.com/
+
+The visualization allows users to see all of the lots sold according to their price and locations each year. Each color represents a different location, and the black horizontal average line indicates the average hammer price for all lots during the selected year. This visualization supports the project’s main hypothesis that location and season significantly affect the auction performance in terms of the prices of works sold.
+
+We built the interactive visualization so that it would be scalable and versatile if we want to add more features in the future. A few things that we had in mind as features but did not implement due to time constraints included taking the average per auction, and connecting these points with a trend line. We also thought of adding a box plot for each auction that could have been toggled in a similar matter to the jitter feature. Another feature we had hoped to add was the ability to toggle based on location, which would have allowed users to click each location on or off and show the corresponding lot data points. Finally, our time line only allows for scrolling by year, but ultimately the idea would be to have a continuous scroll and even zoom in and out so the user would have full control over their time frame of analysis.
+
+Lastly, both for the interactive visualization and our analysis on a whole, future work would include extending our project to not only analyze auction data from Sotheby’s, but also to analyze data from other auction houses like Christie’s and Phillip,s or museums and other online art data sources to see if our conclusions are consistent for these other data sources as well.
+
+### Instructions
+
+Each vertical line indicates an auction, and all the data points along that line are the lots (pieces of art) that were sold in that auction. Auctions are colored by location so users can see where in the world the auction took place. The average line indicates the average price at which lots were sold in aggregate for the selected year. Additionally, there are a number of ways users can interact with this scatter plot including:
+
+Change Year - Click on the arrows next to the year to either move a year forward or backwards (2006-2018). This can help to compare the different distributions and average price of lots across all years in our dataset.
+See Lot Details - Hover over each circle to see the details of the lot transaction. You should expect to see the realized hammer price (sale price) as well as a picture of the actual piece of art. Keep in mind that many of the lots have their pictures copyright protected by Sothebys and will not be display. Nonetheless, most of the more recent images (2017-18) are available. :)
+Spread Data Points - Since there are so many data points per auction plotted along the same day, users can add jitter to better observe each data point and counteract overplotting. Click the button that says “Jitter” and this will spread the points from their original location to better see all options. One can easily bring the points back to proper location by unclicking the button.
