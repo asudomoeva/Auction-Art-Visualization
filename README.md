@@ -10,12 +10,12 @@ Each of our team members has a diverse background. In addition to experience as 
 
 From a high level, the questions that intrigued us most were related to knowing more about the auction sale prices (called hammer prices) for pieces of art (called lots) in terms of different artists, location and time periods. We initially developed a large list of potential questions, and narrowed these down based on viability in terms of the data we had available as well as the scope and time constraints for the project. Some of the specific questions we decided to look at are:
 
-What is the distribution of quantity of lots and auctions by location, year, and season?
-What are the lot titles that have higher price or appear more?
-How is price related to artist’s era/when he/she was born?
-Do auction prices vary by location and season?
-Did Financial Crisis have any effect on the auctions?
-Does the order in which the lot is presented affect the overall sell price?
+1. What is the distribution of quantity of lots and auctions by location, year, and season?
+2. What are the lot titles that have higher price or appear more?
+3. How is price related to artist’s era/when he/she was born?
+4. Do auction prices vary by location and season?
+5. Did Financial Crisis have any effect on the auctions?
+6. Does the order in which the lot is presented affect the overall sell price?
 
 The detailed final report of the analysis are shared in this repo for your convinience.
 
@@ -23,7 +23,7 @@ The detailed final report of the analysis are shared in this repo for your convi
 Link to the interactive part: https://edav-art-viz.firebaseapp.com
 
 ### Description
-Our interactive visualization is a scatter plot of lot prices over time built with HTML, CSS, Bootstrap and JavaScript; it is hosted on Firebase and can be viewed here: https://edav-art-viz.firebaseapp.com/
+Our interactive visualization is a scatter plot of lot prices over time built with HTML, CSS, Bootstrap and JavaScript.
 
 The visualization allows users to see all of the lots sold according to their price and locations each year. Each color represents a different location, and the black horizontal average line indicates the average hammer price for all lots during the selected year. This visualization supports the project’s main hypothesis that location and season significantly affect the auction performance in terms of the prices of works sold.
 
